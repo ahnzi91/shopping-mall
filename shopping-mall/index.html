@@ -11,9 +11,16 @@
       <h3 class="header-title">참치회 특가 판매</h3>
     </header>
     <form class="form">
-      <select id="products" name="products" multiple></select>
+      <select multiple id="products" name="products"></select>
     </form>
     <button type="submit">결제하기</button>
+
+    <div class="selected-products">
+      <h3 class="selected-products__title">선택한 상품</h3>
+      <ul id="selectedProducts"></ul>
+    </div>
+
+    <div id="totalPrice"></div>
     <script src="./src/js/main.js"></script>
   </body>
 </html>
